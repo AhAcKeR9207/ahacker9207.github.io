@@ -1,0 +1,45 @@
+/*
+ A simple demo of a PID control loop I created to demonstrate the concept to my co-workers.
+ Copyright (C) 2015  Eliott Wiener
+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+body {
+	font-family: sans-serif;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+}
+#cnvs {
+	position: relative;
+	display: block;
+}
+.control input[type="number"] {
+	max-width: 4em;
+}
+#controls {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: rgba(147, 128, 108, 0.1);
+	padding: 0.5em 0;
+}
+#description {
+	max-width: 40em;
+	margin: 0 auto;
+}
+#description-container {
+	background-color: rgba(108, 128, 147, 0.1);
+	padding: 0.3em;
+}
